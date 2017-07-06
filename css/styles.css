@@ -1,0 +1,108 @@
+body {
+	background: url("../images/fon.png");
+}
+h1 {
+	text-align: center;
+}
+.container {
+	margin-bottom: 100px;
+}
+
+
+
+.cat {
+	border: 1px dashed #000;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+} 
+.cat a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.cat a:hover {
+	text-decoration: underline;
+}
+
+
+
+.bread a {
+	text-decoration: none;
+	font-style: italic;
+}
+.bread {
+	margin-bottom: 20px;
+}
+
+
+
+.message {
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.message div:first-child {
+	font-weight: bold;
+	border-bottom: 1px dotted #000;
+	margin-bottom: 10px;
+}
+.theme {
+	border: 3px double #000;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 0 0 10px yellow;
+}
+.theme div:first-child {
+	font-weight: bold;
+	font-size: 130%;
+}
+.theme div:last-child {
+	border-top: 1px solid #000;
+}
+
+
+
+.error {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid red;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+
+form.register, form.edit, form.edit-comm {
+	max-width: 500px;
+	margin: 40px auto 100px;
+}
+form.answer input, form.answer textarea,
+form.register input, form.register textarea,
+form.edit input, form.edit textarea,
+form.edit-comm input, form.edit-comm textarea {
+	width: 100%;
+}
+form.answer textarea, form.edit-comm textarea {
+	height: 200px;
+}
+form.edit textarea {
+	height: 400px;
+}
+form.register {
+	max-width: 300px;
+}
+form.edit {
+	max-width: 700px;
+}
+
+
+
+.jumbotron h1, .jumbotron h2 {
+	text-align: center;
+}
+.jumbotron {
+	border: 1px dashed #000;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
